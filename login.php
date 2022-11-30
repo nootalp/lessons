@@ -11,7 +11,7 @@
 <body>
   <?php
     $login = "Gabo";
-    $password = "1";
+    $password = "123";
 
     if(isset($_POST["login"])) {
       if($_POST["login"] == $login && $_POST["password"] == $password) {
