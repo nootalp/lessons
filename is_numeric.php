@@ -20,10 +20,7 @@
         for($mult = 0; $mult < 10; ++$mult ) {
           $tab = $num * $mult;
           echo `${$num} * ${$mult} = ${$tab}`;  
-        }        
-
-        
-        
+        } 
       }
     }
   ?>
