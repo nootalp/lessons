@@ -10,12 +10,13 @@
 </head>
 <body>
   <?php
-    $colors = array("Yellow", "Blue", "Red", "Green");
-    $qnt = count($colors);
-    
-    for($x = 0; $x < $qnt; $x++) {
-      echo $colors[$x] . "\n";
+    $list = ["Segunda","Terça","Quarta","Quinta","Sexta","Sábado","Domingo"];
+
+    foreach($list as $key => &$element) {
+      $element = $element . "1";
+      echo "$element\n$key\n";
     }
+    print_r($list);
   ?>
 </body>
 </html>
